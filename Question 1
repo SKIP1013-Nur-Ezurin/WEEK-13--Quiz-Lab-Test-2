@@ -17,7 +17,7 @@ public class Question1 {
 		System.out.print("The number of classes attended: ");
 		int classesAttended = input.nextInt();
 		int percentage ;
-		percentage = (classesAttended/classes)/100;
+		percentage = (classesAttended/classes) *100;
 		System.out.println("Your percentage of classes is" + percentage);
 		
 		
