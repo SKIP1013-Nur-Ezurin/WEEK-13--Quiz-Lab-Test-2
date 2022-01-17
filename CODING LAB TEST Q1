@@ -1,0 +1,29 @@
+package shapeComputation;
+import java.lang.Math.*;
+import java.util.Scanner;
+
+public class CircleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner (System.in);
+		float radius = input.nextFloat();
+		System.out.println("Enter the radius");
+		double area, circumference, diameter;
+		
+		
+		// Compute area and circumference
+		area = radius * radius * Math.PI;
+		circumference = 2.0 * radius * Math.PI;
+		diameter = 2.0 * radius;
+
+		// Print results
+		System.out.printf("The diameter is ", diameter); 
+		System.out.printf("The area is ",area);
+		System.out.printf("The circumference is ", circumference);
+		}
+		
+
+	}
+
+
