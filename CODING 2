@@ -7,8 +7,9 @@ public class Question2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner (System.in);
-		int num = input.nextInt();
-		System.out.println("Enter a positive number " + num);
+		int num ;
+		System.out.println("Enter a positive number " );
+		num = input.nextInt();
 		int reversed = 0;
 	    while(num != 0) {
 	      int digit = num % 10;
@@ -21,5 +22,3 @@ public class Question2 {
 	
 
 	}
-
-
